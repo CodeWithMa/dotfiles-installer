@@ -24,8 +24,8 @@ for repo target in ${(kv)REPOS}; do
   fi
 done
 
-# zsh-base has submodules and needs .zshrc copied
+# zsh-base has submodules and needs .zshrc symlinked
 if [[ -d "$HOME/.config/zsh" ]]; then
   git -C "$HOME/.config/zsh" submodule update --init --recursive
-  cp "$HOME/.config/zsh/.zshrc" ~/
+  ln -sf "$HOME/.config/zsh/.zshrc" "$HOME/.zshrc"
 fi
