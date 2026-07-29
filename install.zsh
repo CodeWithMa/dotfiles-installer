@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-GIT_CLONE_SOURCE_DOMAIN=codeberg.org
+GIT_CLONE_SOURCE_DOMAIN=github.com
 GIT_CLONE_SOURCE_USERNAME=CodeWithMa
 
 typeset -A REPOS=(
