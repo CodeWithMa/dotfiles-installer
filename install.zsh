@@ -8,6 +8,7 @@ typeset -A REPOS=(
   [waybar]="$HOME/.config/waybar"
   [xkb]="$HOME/.config/xkb"
   [nvim]="$HOME/.config/nvim"
+  [pipewire]="$HOME/.config/pipewire"
   [ranger]="$HOME/.config/ranger"
   [rofi]="$HOME/.config/rofi"
   [git]="$HOME/.config/git"
